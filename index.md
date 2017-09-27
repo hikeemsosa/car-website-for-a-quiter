@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<title> get a car today
+</title>
+<div style="height: 50px;
+width: 400px;
+background-color: orange;
+position: relative;
+left: 470px;">
+  <p style="text-align: center;
+  position: relative;
+  top: 15px;">
+    we have nice cars.</p>
+</div>
+</head>
+<body>
+  <p style="text-align: center;"> welcome to car website.<br />
+    To view availible cars in your locality to follow the two<br />
+    simple steps below.
+  </p>
+<select style="text-align: center;
+              left; 470px;">
+<!--this above style is non valid.-->
+  <option value="select your nearest branch">a</option>
+  <option value="testing values">b</option>
+  <option value="just another">c</option>
+</select>
+  <p style="text-align: center;
+  position: relative;
+  top: 55px;"> select your weekly budget
+  </p>
+  <!--past this point all html is a type of box where
+all the stuff is together or suppossed to be bassed on the site this is
+modeled from.-->
+  <div>
+    <button type="button" onclick="alert('testing')"
+    style="position: relative;
+    left; 470px;">search
+    </button>
+    <!--the above positioning i'm using doesn't work for this element either.-->
+    <button type="button" onclick="alert('testing number two')">
+      how it works
+    </button>
+    <button>
+      FAQ
+    </button>
+  </div>
+<footer>
+</footer>
+</body>
 
-You can use the [editor on GitHub](https://github.com/hikeemsosa/car-website-for-a-quiter/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hikeemsosa/car-website-for-a-quiter/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
